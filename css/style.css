@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2"),
+    url("../fonts/Roboto-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/Roboto-Bold.woff2") format("woff2"),
+    url("../fonts/Roboto-Bold.woff") format("woff");
+}
+
+:root {
+  --basic-white: #ffffff;
+}
+
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+  color: var(--basic-white);
+}
+
+a {
+  text-decoration: none;
+  color: var(--basic-white);
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.page-wrapper {
+  background-color: #849D8F;
+}
+
+.site-nav {
+  list-style: none;
+  font-weight: 700;
+}
+
+.site-nav ul {
+  list-style: none;
+}
+
+.user-nav {
+  list-style: none;
+}
+
+.user-nav a {
+  color: var(--basic-white);
+}
+
+.main-header__contacts {
+  font-weight: 700;
+}
+
+.ad-intro__list {
+  list-style: none;
+}
+
+.ad-intro__item {
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.ad-intro__button {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  padding: 40px;
+  padding-top: 9px;
+  padding-bottom: 10px;
+  background-image: linear-gradient(180deg, #F26843 0%, #E74A35 100%);
+}
